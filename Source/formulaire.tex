@@ -22,22 +22,22 @@
 \begin{tabdonnees}
 \tabitem{Titre du projet} & \titreprojet \\
 \tabitem{No d'identification du projet (IT)} & \itprojet \\
-\tabitem{Professeur·e superviseur·e canadien·ne (exclure les titres)} & \auteur \\
-\tabitem{Professeur·e superviseur·e canadien·ne — courriel (utilisé pour les projets Mitacs)} & \\
+\tabitem{Professeur·e superviseur·e canadien·ne {\color{gray}(exclure les titres)}} & \auteur \\
+\tabitem{Professeur·e superviseur·e canadien·ne — courriel (utilisé pour les projets Mitacs)} & \url{\auteuremail}\\
 \tabitem{Co-superviseur} & \cosuperviseur \\
-\tabitem{Organisation(s) partenaire(s) :} & \partenaire \\
+\tabitem{Organisation(s) partenaire(s) :} & \partenaire \\
 \end{tabdonnees}
 
 \section{Renseignements sur le stage\oblig}
 
 \begin{tabdonnees}
-\tabitem{Date de début du stage} & \\
-\tabitem{Nombre total de stages} & \\
-\tabitem{Durée de chaque stage (mois)} & \\
-\tabitem{Les unités de stage seront-elles consécutives?} & Si NON, remplissez l'{\color{darkred}Annexe C} \\
-\tabitem{Montant de l'allocation par unité de stage
-{\normalfont REMARQUE: le montant de l'allocation minimum est de 10~000~\$ par unité de stage pour Accélération}} & \\
-\tabitem{Est-ce que la nouvelle ou le nouveau stagiaire remplace une ou un stagiaire déjà affecté au projet?} & \\
+\tabitem{Date de début du stage} & \datedebut \\
+\tabitem{Nombre total de stages} & \nombretotal \\
+\tabitem{Durée de chaque stage (mois)} & \dureestage \\
+\tabitem{Les unités de stage seront-elles consécutives?} & Oui \vskip 1pt Si NON, remplissez l'{\color{darkred}Annexe C} \\
+\tabitem{Montant de l'allocation par unité de stage \tispace
+{\normalfont REMARQUE: le montant de l'allocation minimum est de 10~000~\$ par unité de stage pour Accélération}} & \montantstage \\
+\tabitem{Est-ce que la nouvelle ou le nouveau stagiaire remplace une ou un stagiaire déjà affecté au projet?} & Non \\
 \tabtabitem{a. Nom de la ou du stagiaire à remplacer} & \\
 \tabtabitem{b. Dernière journée de travail de la ou du stagiaire à remplacer} & \\
 \end{tabdonnees}
@@ -56,22 +56,22 @@ Cliquez ou appuyez ici pour entrer du texte.
 
 \begin{tabdonnees}
 \tabitem{Nom} & \prenomstagiaire{} \nomstagiaire{} \\
-\tabitem{Niveau d'études pendant le stage} & \\
+\tabitem{Niveau d'études pendant le stage} & \niveauetudes \\
 \tabitem{Date prévue d'obtention du diplôme 
-(S'il s'agit d'une chercheuse ou d'un chercheur au postdoctorat, indiquez la date d'obtention du doctorat)} & \\
-\tabitem{Établissement d'enseignement fréquenté pendant le stage} & \\
-\tabitem{Département (Nom officiel du département requis)} & \\
-\tabitem{Téléphone principal} & \\
+(S'il s'agit d'une chercheuse ou d'un chercheur au postdoctorat, indiquez la date d'obtention du doctorat)} & \datediplome \\
+\tabitem{Établissement d'enseignement fréquenté pendant le stage} & \etablissement \\
+\tabitem{Département (Nom officiel du département requis)} & \departement \\
+\tabitem{Téléphone principal} & \telephoneprincipal \\
 \tabtabitem{a. Autre téléphone ou téléphone cellulaire} & \\
-\tabitem{Courriel permanent} & \\
+\tabitem{Courriel permanent} & \stagiaireemail \\
 \tabtabitem{a. Autre adresse courriel} & \\
-\tabitem{Citoyenneté} & \\
-\tabnoitem{Si Citoyenneté d'un autre pays, veuillez préciser} & \\
-\tabitem{Est-ce que la ou le stagiaire a atteint l'âge légal au Canada {\color{gray} (18 ans ou plus)}?} & Oui \\
+\tabitem{Citoyenneté} & \citoyennete \\
+\tabnoitem{Si Citoyenneté d'un autre pays, veuillez préciser} & \citoyennetepays \\
+\tabitem{Est-ce que la ou le stagiaire a atteint l'âge légal au Canada {\color{gray} (18 ans ou plus)}?} & Oui \\
 \tabitem{Est-ce que le ou la stagiaire réalisera des unités de stage au sein d'une organisation partenaire à l'extérieur du Canada?} & Non \\
 \tabtabitem{a. Durée à l'étranger} & N/A \\
 \tabtabitem{b La personne stagiaire changera-t-elle de programme ou statut pendant le stage? \color{gray}
-Par exemple, de la maîtrise au doctorat, ou d'un statut « aux études » de baccalauréat à « diplômé·e »?} & Non \\
+Par exemple, de la maîtrise au doctorat, ou d'un statut « aux études » de baccalauréat à « diplômé·e »?} & Non \\
 \end{tabdonnees}
 
 \textbf{\small\color{darkred} La collecte de ces données constitue une exigence pour nos bailleurs de fonds, et elle contribue à assurer un financement constant pour nos programmes.}
@@ -100,8 +100,6 @@ Mitacs se réserve le droit de refuser le financement, à tout moment, d'un proj
 
 \input{protocole.inc.tex}
 
-\rule{6in}{2pt}
-
 \subsection{Titre du projet}                                                         
         (de la proposition originale)
         
@@ -114,42 +112,42 @@ Mitacs se réserve le droit de refuser le financement, à tout moment, d'un proj
 \begin{tabsignatures}
 \tabsigitem{Nom:} & \multicolumn{2}{l:}{\prenomstagiaire{} \nomstagiaire{}} \\
 \tabsigitem{} & \multicolumn{2}{p{4.5in}:}{Pour les stagiaires participant au programme Parcours Autochtones:
-\vskip 2pt
+\tispace
 $\boxempty$ Le ou la stagiaire s'identifie comme Autochtone.} \\
-\tabsigitem{Signature:} & \includegraphics[width=1in]{emmett} & \textbf{Date:} xx-xx-xxxx\\
+\tabsigitem{Signature:} & \includegraphics[width=1in]{emmett} & \textbf{Date:} \datesigstagiaire \\
 \end{tabsignatures}
 
 \subsubsection{Professeur·e superviseur·e au Canada} 
 \begin{tabsignatures}
 \tabsigitem{Nom:} & \multicolumn{2}{l:}{\auteur} \\
-\tabsigitem{Signature:} & \includegraphics[width=1in]{emmett} & \textbf{Date:} xx-xx-xxxx\\
+\tabsigitem{Signature:} & \includegraphics[width=1in]{emmett} & \textbf{Date:} \datesigsuperviseur \\
 \end{tabsignatures}             
 
 \subsubsection{Organisation partenaire}
 \begin{tabsignatures}
-\tabsigitem{Nom:} & \multicolumn{2}{l:}{Emmett Brown} \\
+\tabsigitem{Nom:} & \multicolumn{2}{l:}{\sigpartenaire} \\
 \tabsigitem{Dénomination sociale de l'organisation:} & \multicolumn{2}{l}{\partenaire} \\
 \tabsigitem{} & \multicolumn{2}{p{4.5in}:}{L'organisme partenaire s'engage à verser la contribution financière indiquée dans la demande initiale. En signant, l'organisme partenaire accepte l'intégration du nouveau stagiaire au projet.} \\
-\tabsigitem{Signature:} & \includegraphics[width=1in]{emmett} & \textbf{Date:} xx-xx-xxxx\\
+\tabsigitem{Signature:} & \includegraphics[width=1in]{emmett} & \textbf{Date:} \datesigpartenaire \\
 \end{tabsignatures}
 
 \subsubsection{Signatures additionnelles (si applicable)}
 \begin{tabsignatures}
-\tabsigitem{Nom:} & \multicolumn{2}{l:}{Emmett Brown} \\
+\tabsigitem{Nom:} & \multicolumn{2}{l:}{} \\
 \tabsigitem{Rôle:} & & \textbf{Org:} \\
-\tabsigitem{Signature:} &  & \textbf{Date:} xx-xx-xxxx\\
+\tabsigitem{Signature:} &  & \textbf{Date:} \\
 \end{tabsignatures}
 
 \begin{tabsignatures}
-\tabsigitem{Nom:} & \multicolumn{2}{l:}{Emmett Brown} \\
+\tabsigitem{Nom:} & \multicolumn{2}{l:}{} \\
 \tabsigitem{Rôle:} & & \textbf{Org:} \\
-\tabsigitem{Signature:} &  & \textbf{Date:} xx-xx-xxxx\\
+\tabsigitem{Signature:} &  & \textbf{Date:} \\
 \end{tabsignatures}
 
 \begin{tabsignatures}
-\tabsigitem{Nom:} & \multicolumn{2}{l:}{Emmett Brown} \\
+\tabsigitem{Nom:} & \multicolumn{2}{l:}{} \\
 \tabsigitem{Rôle:} & & \textbf{Org:} \\
-\tabsigitem{Signature:} &  & \textbf{Date:} xx-xx-xxxx\\
+\tabsigitem{Signature:} &  & \textbf{Date:} \\
 \end{tabsignatures}
 
 \newpage
@@ -169,60 +167,98 @@ Nom du/de la stagiaire & \rule{1cm}{0pt} Signature \rule{1cm}{0pt} & \rule{1cm}{
 
 \newpage
 
-\section*{Annexe B – Modèle de CV de la ou du stagiaire\oblig}
+\section*{Annexe B – Modèle de CV de la ou du stagiaire\oblig}
 
 \begin{center}
 \small
-[Toutes les sections portant un \og{}{\color{red}*}\fg{} sont {\color{darkred} OBLIGATOIRES}]
+Toutes les sections portant un \og{}{\color{red}*}\fg{} sont {\color{darkred} OBLIGATOIRES}
 \end{center}
 
 \arrayrulecolor{black!90}
-\begin{tabular}{|p{3in}|p{3in}|}
+\begin{tabular}{|p{2.825in}|p{2.825in}|}
 \hline
-\multicolumn{2}{|p{6in}|}{Date de présentation\oblig: } \\
+\multicolumn{2}{|l|}{\textbf{Date de présentation:}\oblig: \datesigstagiaire} \\
 \hline
-\multicolumn{2}{|p{6in}|}{N$^\textup{o}$ IT du projet\oblig: } \\
+\multicolumn{2}{|l|}{\textbf{\No{} IT du projet:}\oblig: \itprojet} \\
 \hline
-\textbf{Nom de famille:} & \textbf{Prénom:} \\
+\textbf{Nom de famille:} \nomstagiaire & \textbf{Prénom:} \prenomstagiaire \\
 \hline
 \end{tabular}
 
 \begin{tabularx}{6in}{|X|X|X|X|X|}
 \hline
 \rowcolor{black!30}
-\multicolumn{5}{|>{\centering\arraybackslash}p{\dimexpr\linewidth-2\tabcolsep\relax}|}%
-{ÉTUDES POSTSECONDAIRES
-\vskip 2pt
+\multicolumn{5}{|p{5.82in}|}{\textbf{ÉTUDES POSTSECONDAIRES}
+\tispace\small
 Remarque: La date de fin attendue du programme d'études doit être documentée pour vérifier le statut à temps plein de l'étudiante ou de l'étudiant et son admissibilité au projet.\oblig} \\
 \hline
 \rowcolor{black!30} Diplôme\oblig
-\vskip 2pt
+\tispace
 Énumérez l'affiliation postsecondaire actuelle ou la plus récente* jusqu'à la plus ancienne.
 &
 Établissement d'enseignement\oblig & Département \oblig & Lieu \oblig & Date de début et de fin\oblig
-\vskip 2pt
+\tispace
 (mm/aaaa à mm/aaaa) \\
 \hline
 \rowcolor{white}
-Doctorat & & & & \\
+\ligneAdiplome & \ligneAetablissement & \ligneAdepartement & \ligneAlieu & \ligneAdates \\
 \hline
-Maîtrise & & & & \\
+\ligneBdiplome & \ligneBetablissement & \ligneBdepartement & \ligneBlieu & \ligneBdates \\
 \hline
-Baccalauréat & & & & \\
+\ligneCdiplome & \ligneCetablissement & \ligneCdepartement & \ligneClieu & \ligneCdates \\
+\hline
+\ligneDdiplome & \ligneDetablissement & \ligneDdepartement & \ligneDlieu & \ligneDdates \\
+\hline
+\ligneEdiplome & \ligneEetablissement & \ligneEdepartement & \ligneElieu & \ligneEdates \\
 \hline
 \end{tabularx}
 
-
+\begin{tabularx}{6in}{|X|X|X|}
+\hline
+\rowcolor{black!30}
+\multicolumn{3}{|p{5.82in}|}{\textbf{EXPÉRIENCE - EN MILIEU POSTSECONDAIRE, EN RECHERCHE, EN ENTREPRISE}
+\tispace\small
+\oblig Assurez-vous d'inclure toute affiliation avec l'organisation partenaire associée au \no{} IT lié au stage.} \\
+\hline
+\rowcolor{black!30} Titre du poste occupé
+&
+Nom de l'organisation, département et lieu
+\tispace (ex.\ Exemple d'entreprise, Exemple d'équipe - Ville, Province) 
+&
+Durée du poste
+\tispace
+(mm/aaaa à mm/aaaa) \\
+\hline
+\rowcolor{white}
+\ligneAposte & \ligneAorganisation & \ligneAduree \\
+\hline
+\ligneBposte & \ligneBorganisation & \ligneBduree \\
+\hline
+\ligneCposte & \ligneCorganisation & \ligneCduree \\
+\hline
+\end{tabularx}
 
 \newpage
 
-\section*{Annexe C – Date du stage et tableau de financement}
+\section*{Annexe C - Date du stage et tableau de financement}
 
 \begin{center}\bfseries
 REMARQUE: la date de début proposée de tout stage doit être postérieure à la date de réception de la Lettre de résultat.
 \end{center}
 
-\directlua{require("financement")}
+\begin{tabularx}{6in}{|X|X|X|X|}
+\hline
+\rowcolor[HTML]{C0C0C0} 
+\multicolumn{1}{|c|}{\cellcolor[HTML]{C0C0C0}}                                          & \multicolumn{2}{c|}{\cellcolor[HTML]{C0C0C0}\textbf{Période des unités de stage}}                                                                                                                                                                                     & \multicolumn{1}{c|}{\cellcolor[HTML]{C0C0C0}}                                                   \\ \cline{2-3}
+\rowcolor[HTML]{C0C0C0} 
+\multicolumn{1}{|c|}{\multirow{-2}{*}{\cellcolor[HTML]{C0C0C0}\textbf{Unité de stage}}} & \multicolumn{1}{c|}{\cellcolor[HTML]{C0C0C0}\begin{tabular}[c]{@{}c@{}}Unité de stage\\ Date de début\\ (JJ/MM/AAAA)\end{tabular}} & \multicolumn{1}{c|}{\cellcolor[HTML]{C0C0C0}\begin{tabular}[c]{@{}c@{}}Unité de stage\\ Date de fin\\ (JJ/MM/AAAA)\end{tabular}} & \multicolumn{1}{c|}{\multirow{-2}{*}{\cellcolor[HTML]{C0C0C0}\textbf{Montant de l'allocation}}} \\ 
+                                                                                        &                                                                                                                                    &                                                                                                                                  &                                                                                                 \\
+                                                                                        &                                                                                                                                    &                                                                                                                                  &                                                                                                
+\\
+                                                                                        \hline
+
+\directlua{dofile("financement.lua")} % runs every time                                                                                              
+\end{tabularx}
 
 \bfseries{
 S'il y a lieu: \newline

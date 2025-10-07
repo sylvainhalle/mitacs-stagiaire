@@ -68,7 +68,7 @@
 \RequirePackage{titlesec}
 \RequirePackage{lastpage}
 \RequirePackage{graphicx}
-\RequirePackage{hyperref}
+\RequirePackage[hidelinks]{hyperref}
 \RequirePackage{stmaryrd}
 \RequirePackage{luacode}
 \RequirePackage{colortbl}
@@ -182,4 +182,6 @@
 \restoregeometry
 }
 
+\renewcommand{\arraystretch}{1.3}
+\newcommand{\tispace}{\vskip 1pt}
 %% :wrap=soft:mode=latex:
